@@ -1,5 +1,6 @@
 import React from "react";
 import ChartistGraph from "react-chartist";
+import {Link} from "react-router-dom";
 // react-bootstrap components
 import {
   Badge,
@@ -32,8 +33,8 @@ function Dashboard() {
                   </Col>
                   <Col xs="7">
                     <div className="numbers">
-                      <p className="card-category">Number</p>
-                      <Card.Title as="h4">150GB</Card.Title>
+                      <p className="card-category">Utility</p>
+                      <Card.Title as="h4">Snu Share</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -42,7 +43,7 @@ function Dashboard() {
                 <hr></hr>
                 <div className="stats">
                   <i className="fas fa-redo mr-1"></i>
-                  Update Now
+                  <a href = 'https://snu-file-share-client.herokuapp.com/' target='_blank'><button>Go To App</button></a>
                 </div>
               </Card.Footer>
             </Card>
@@ -58,8 +59,8 @@ function Dashboard() {
                   </Col>
                   <Col xs="7">
                     <div className="numbers">
-                      <p className="card-category">Revenue</p>
-                      <Card.Title as="h4">$ 1,345</Card.Title>
+                      <p className="card-category">Social</p>
+                      <Card.Title as="h4">Snu LinkedIn</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -68,7 +69,8 @@ function Dashboard() {
                 <hr></hr>
                 <div className="stats">
                   <i className="far fa-calendar-alt mr-1"></i>
-                  Last day
+                  <a href = 'https://snu-linkedin.herokuapp.com/' target='_blank'><button>Go To App</button></a>
+                  
                 </div>
               </Card.Footer>
             </Card>
@@ -84,8 +86,8 @@ function Dashboard() {
                   </Col>
                   <Col xs="7">
                     <div className="numbers">
-                      <p className="card-category">Errors</p>
-                      <Card.Title as="h4">23</Card.Title>
+                      <p className="card-category">Coding</p>
+                      <Card.Title as="h4">Snu Code</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -94,7 +96,8 @@ function Dashboard() {
                 <hr></hr>
                 <div className="stats">
                   <i className="far fa-clock-o mr-1"></i>
-                  In the last hour
+                  <a href = 'https://github.com/devyansh3/Snu-code-collaborator/tree/master' target='_blank'><button>Go To App</button></a>
+                  
                 </div>
               </Card.Footer>
             </Card>
@@ -110,8 +113,8 @@ function Dashboard() {
                   </Col>
                   <Col xs="7">
                     <div className="numbers">
-                      <p className="card-category">Followers</p>
-                      <Card.Title as="h4">+45K</Card.Title>
+                      <p className="card-category">Fun</p>
+                      <Card.Title as="h4">Netflix</Card.Title>
                     </div>
                   </Col>
                 </Row>
@@ -120,7 +123,7 @@ function Dashboard() {
                 <hr></hr>
                 <div className="stats">
                   <i className="fas fa-redo mr-1"></i>
-                  Update now
+                  <a href = 'https://netflix-f9eea.web.app/' target='_blank'><button>Go To App</button></a>
                 </div>
               </Card.Footer>
             </Card>
